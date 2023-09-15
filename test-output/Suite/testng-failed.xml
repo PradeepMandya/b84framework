@@ -9,20 +9,13 @@
     <parameter name="gridurl" value="http://localhost:4444"/>
     <parameter name="appurl" value="https://demo.actitime.com/"/>
     <classes>
-      <class name="script.DemoTest2">
-        <methods>
-          <include name="postCondition"/>
-          <include name="testB"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- script.DemoTest2 -->
-      <class name="script.ValidLogin">
+      <class name="script.ValidLoginLogout">
         <methods>
           <include name="postCondition"/>
           <include name="testValidLogin"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- script.ValidLogin -->
+      </class> <!-- script.ValidLoginLogout -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
